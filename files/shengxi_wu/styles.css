@@ -32,10 +32,36 @@
   overflow-x:hidden;
   -ms-overflow-y:hidden;
   overflow-y:hidden;
+  background-image:url('../../images/shengxi_wu/u0_state0.jpg');
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state0_content {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1px;
+  height:1px;
+}
+#u0_state1 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1080px;
+  height:480px;
+  visibility:hidden;
+  -ms-overflow-x:hidden;
+  overflow-x:hidden;
+  -ms-overflow-y:hidden;
+  overflow-y:hidden;
   background-color:rgba(229, 229, 229, 1);
   background-image:none;
 }
-#u0_state0_content {
+#u0_state1_content {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -68,7 +94,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u0_state1 {
+#u0_state2 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -83,7 +109,7 @@
   background-color:rgba(109, 151, 150, 1);
   background-image:none;
 }
-#u0_state1_content {
+#u0_state2_content {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -116,7 +142,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u0_state2 {
+#u0_state3 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -128,13 +154,13 @@
   overflow-x:hidden;
   -ms-overflow-y:hidden;
   overflow-y:hidden;
-  background-image:url('../../images/shengxi_wu/u0_state2.png');
+  background-image:url('../../images/shengxi_wu/u0_state3.png');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
-#u0_state2_content {
+#u0_state3_content {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -142,7 +168,7 @@
   width:1px;
   height:1px;
 }
-#u0_state3 {
+#u0_state4 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -157,7 +183,7 @@
   background-color:rgba(223, 223, 223, 1);
   background-image:none;
 }
-#u0_state3_content {
+#u0_state4_content {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -190,7 +216,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u0_state4 {
+#u0_state5 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -202,13 +228,13 @@
   overflow-x:hidden;
   -ms-overflow-y:hidden;
   overflow-y:hidden;
-  background-image:url('../../images/shengxi_wu/u0_state4.jpg');
+  background-image:url('../../images/shengxi_wu/u0_state5.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
-#u0_state4_content {
+#u0_state5_content {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -4003,28 +4029,36 @@ body.a {  background-color:rgba(255, 255, 255, 1);
 #u3.a {
 }
 #u0_state0.a {
-  background-color:rgba(229, 229, 229, 1);
-  background-image:none;
-}
-#u0_state1.a {
-  background-color:rgba(109, 151, 150, 1);
-  background-image:none;
-}
-#u0_state2.a {
   background-color:rgba(255, 255, 255, 0);
-  background-image:url('../../images/shengxi_wu/u0_state2.png');
+  background-image:url('../../images/shengxi_wu/u0_state0.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
+#u0_state1.a {
+  background-color:rgba(229, 229, 229, 1);
+  background-image:none;
+}
+#u0_state2.a {
+  background-color:rgba(109, 151, 150, 1);
+  background-image:none;
+}
 #u0_state3.a {
+  background-color:rgba(255, 255, 255, 0);
+  background-image:url('../../images/shengxi_wu/u0_state3.png');
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state4.a {
   background-color:rgba(223, 223, 223, 1);
   background-image:none;
 }
-#u0_state4.a {
+#u0_state5.a {
   background-color:rgba(255, 255, 255, 0);
-  background-image:url('../../images/shengxi_wu/u0_state4.jpg');
+  background-image:url('../../images/shengxi_wu/u0_state5.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
@@ -5862,32 +5896,41 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 }
 #u0_state0.b {
   width:1024px;
-  background-color:rgba(229, 229, 229, 1);
-  background-image:none;
-}
-#u0_state1.b {
-  width:1024px;
-  background-color:rgba(109, 151, 150, 1);
-  background-image:none;
-}
-#u0_state2.b {
-  width:1024px;
-  background-color:rgba(255, 255, 255, 1);
-  background-image:url('../../images/shengxi_wu/u0_state2.png');
+  background-color:rgba(255, 255, 255, 0);
+  background-image:url('../../images/shengxi_wu/u0_state0_b.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
+#u0_state1.b {
+  width:1024px;
+  background-color:rgba(229, 229, 229, 1);
+  background-image:none;
+}
+#u0_state2.b {
+  width:1024px;
+  background-color:rgba(109, 151, 150, 1);
+  background-image:none;
+}
 #u0_state3.b {
+  width:1024px;
+  background-color:rgba(255, 255, 255, 1);
+  background-image:url('../../images/shengxi_wu/u0_state3.png');
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state4.b {
   width:1024px;
   background-color:rgba(223, 223, 223, 1);
   background-image:none;
 }
-#u0_state4.b {
+#u0_state5.b {
   width:1024px;
   background-color:rgba(255, 255, 255, 0);
-  background-image:url('../../images/shengxi_wu/u0_state4.jpg');
+  background-image:url('../../images/shengxi_wu/u0_state5.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
@@ -8106,32 +8149,41 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 }
 #u0_state0.c {
   width:480px;
-  background-color:rgba(229, 229, 229, 1);
-  background-image:none;
-}
-#u0_state1.c {
-  width:480px;
-  background-color:rgba(109, 151, 150, 1);
-  background-image:none;
-}
-#u0_state2.c {
-  width:480px;
-  background-color:rgba(255, 255, 255, 1);
-  background-image:url('../../images/shengxi_wu/u0_state2.png');
+  background-color:rgba(255, 255, 255, 0);
+  background-image:url('../../images/shengxi_wu/u0_state0_b.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
+#u0_state1.c {
+  width:480px;
+  background-color:rgba(229, 229, 229, 1);
+  background-image:none;
+}
+#u0_state2.c {
+  width:480px;
+  background-color:rgba(109, 151, 150, 1);
+  background-image:none;
+}
 #u0_state3.c {
+  width:480px;
+  background-color:rgba(255, 255, 255, 1);
+  background-image:url('../../images/shengxi_wu/u0_state3.png');
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#u0_state4.c {
   width:480px;
   background-color:rgba(223, 223, 223, 1);
   background-image:none;
 }
-#u0_state4.c {
+#u0_state5.c {
   width:480px;
   background-color:rgba(255, 255, 255, 0);
-  background-image:url('../../images/shengxi_wu/u0_state4.jpg');
+  background-image:url('../../images/shengxi_wu/u0_state5.jpg');
   background-position:center center;
   background-repeat:no-repeat;
   background-attachment:scroll;
