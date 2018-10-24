@@ -86,7 +86,7 @@
 #u2073.a {
   position:absolute;
   left:23px;
-  top:18760px;
+  top:18750px;
   width:1032px;
   height:499px;
 }
@@ -94,7 +94,7 @@
   border-width:0px;
   position:absolute;
   left:551px;
-  top:18760px;
+  top:18750px;
   width:240px;
   height:210px;
 }
@@ -112,7 +112,7 @@
   border-width:0px;
   position:absolute;
   left:288px;
-  top:18760px;
+  top:18750px;
   width:240px;
   height:210px;
 }
@@ -334,7 +334,7 @@
   border-width:0px;
   position:absolute;
   left:814px;
-  top:19020px;
+  top:19010px;
   width:240px;
   height:210px;
 }
@@ -423,7 +423,7 @@
   border-width:0px;
   position:absolute;
   left:288px;
-  top:19020px;
+  top:19010px;
   width:240px;
   height:210px;
 }
@@ -518,7 +518,7 @@
   border-width:0px;
   position:absolute;
   left:23px;
-  top:18760px;
+  top:18750px;
   width:240px;
   height:210px;
 }
@@ -638,7 +638,7 @@
   border-width:0px;
   position:absolute;
   left:23px;
-  top:19020px;
+  top:19010px;
   width:240px;
   height:210px;
 }
@@ -707,7 +707,7 @@
   border-width:0px;
   position:absolute;
   left:814px;
-  top:18760px;
+  top:18750px;
   width:240px;
   height:210px;
 }
@@ -769,7 +769,7 @@
   border-width:0px;
   position:absolute;
   left:813px;
-  top:19020px;
+  top:19010px;
   width:240px;
   height:210px;
 }
@@ -831,7 +831,7 @@
   border-width:0px;
   position:absolute;
   left:551px;
-  top:19020px;
+  top:19010px;
   width:240px;
   height:210px;
 }
@@ -1812,17 +1812,17 @@
   border-width:0px;
   position:absolute;
   left:0px;
-  top:15400px;
+  top:15450px;
   width:1080px;
-  height:610px;
+  height:550px;
 }
 #u2216_state0.a {
   background-color:rgba(255, 255, 255, 0);
   background-image:url('../../images/starbucks-kiosk/u2216_state0.jpg');
-  background-position:center center;
+  background-position:center bottom;
   background-repeat:no-repeat;
   background-attachment:scroll;
-  background-size:cover;
+  background-size:contain;
 }
 #u2218.a {
 }
@@ -6987,7 +6987,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
 #u1626.b {
   position:absolute;
   left:0px;
-  top:19329px;
+  top:19319px;
   width:1080px;
   height:50px;
 }
@@ -6995,7 +6995,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   border-width:0px;
   position:absolute;
   left:0px;
-  top:19329px;
+  top:19319px;
   width:1080px;
   height:50px;
 }
@@ -17337,19 +17337,19 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   border-width:0px;
   position:absolute;
   left:0px;
-  top:14494px;
+  top:14470px;
   width:1024px;
-  height:410px;
+  height:434px;
 }
 #u2216_state0.b {
   width:1024px;
-  height:410px;
+  height:434px;
   background-color:rgba(255, 255, 255, 0);
   background-image:url('../../images/starbucks-kiosk/u2216_state0.jpg');
-  background-position:center center;
+  background-position:center bottom;
   background-repeat:no-repeat;
   background-attachment:scroll;
-  background-size:cover;
+  background-size:contain;
 }
 #u2218.b {
   left:83px;
@@ -22590,7 +22590,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
 #u1626.c {
   position:absolute;
   left:0px;
-  top:19329px;
+  top:19319px;
   width:1080px;
   height:50px;
 }
@@ -22598,7 +22598,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   border-width:0px;
   position:absolute;
   left:0px;
-  top:19329px;
+  top:19319px;
   width:1080px;
   height:50px;
 }

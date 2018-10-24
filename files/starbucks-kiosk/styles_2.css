@@ -8534,19 +8534,19 @@
   border-width:0px;
   position:absolute;
   left:0px;
-  top:14494px;
+  top:14470px;
   width:1024px;
-  height:410px;
+  height:434px;
 }
 #u2216_state0.c {
   width:1024px;
-  height:410px;
+  height:434px;
   background-color:rgba(255, 255, 255, 0);
   background-image:url('../../images/starbucks-kiosk/u2216_state0.jpg');
-  background-position:center center;
+  background-position:center bottom;
   background-repeat:no-repeat;
   background-attachment:scroll;
-  background-size:cover;
+  background-size:contain;
 }
 #u2218.c {
   left:83px;
