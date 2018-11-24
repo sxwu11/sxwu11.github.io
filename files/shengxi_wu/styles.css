@@ -502,7 +502,7 @@
   width:241px;
   height:210px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(51, 51, 51, 1);
   border:none;
   border-radius:0px;
   -moz-box-shadow:none;
@@ -513,7 +513,7 @@
 #u15 {
   border-width:0px;
   position:absolute;
-  left:813px;
+  left:814px;
   top:800px;
   width:241px;
   height:210px;
@@ -535,7 +535,7 @@
   left:0px;
   top:0px;
   width:240px;
-  height:40px;
+  height:60px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -543,15 +543,17 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  color:#FFFFFF;
   text-align:center;
 }
 #u16 {
   border-width:0px;
   position:absolute;
-  left:813px;
-  top:875px;
+  left:814px;
+  top:863px;
   width:240px;
-  height:40px;
+  height:60px;
+  color:#FFFFFF;
   text-align:center;
 }
 #u16_text {
@@ -573,7 +575,7 @@
 #u17 {
   border-width:0px;
   position:absolute;
-  left:905px;
+  left:906px;
   top:913px;
   width:57px;
   height:57px;
@@ -4080,7 +4082,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   position:absolute;
   left:23px;
   top:800px;
-  width:1031px;
+  width:1032px;
   height:470px;
 }
 #u6.a {
@@ -4177,7 +4179,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   width:241px;
   height:210px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(51, 51, 51, 1);
   border:none;
   border-radius:0px;
   -moz-box-shadow:none;
@@ -4195,7 +4197,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:240px;
-  height:40px;
+  height:60px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -4203,6 +4205,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  color:#FFFFFF;
   text-align:center;
 }
 #u16.a {
@@ -6077,7 +6080,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   width:228px;
   height:210px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(51, 51, 51, 1);
   border:none;
   border-radius:0px;
   -moz-box-shadow:none;
@@ -6094,6 +6097,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   left:769px;
   top:855px;
   width:228px;
+  height:65px;
 }
 #u16_div.b {
   border-width:0px;
@@ -6101,7 +6105,7 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:228px;
-  height:40px;
+  height:65px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -6109,25 +6113,27 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  color:#FFFFFF;
   text-align:center;
 }
 #u16.b {
   left:769px;
   top:855px;
   width:228px;
+  height:65px;
 }
 #u16_text.b {
   width:228px;
 }
 #u17.b {
   left:855px;
-  top:893px;
+  top:902px;
 }
 #u17_img.b {
 }
 #u17.b {
   left:855px;
-  top:893px;
+  top:902px;
 }
 #u18.b {
   left:520px;
@@ -8330,7 +8336,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   width:228px;
   height:210px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 1);
+  background-color:rgba(51, 51, 51, 1);
   border:none;
   border-radius:0px;
   -moz-box-shadow:none;
@@ -8347,6 +8353,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   left:288px;
   top:756px;
   width:228px;
+  height:65px;
 }
 #u16_div.c {
   border-width:0px;
@@ -8354,7 +8361,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:228px;
-  height:40px;
+  height:65px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -8362,25 +8369,27 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  color:#FFFFFF;
   text-align:center;
 }
 #u16.c {
   left:288px;
   top:756px;
   width:228px;
+  height:65px;
 }
 #u16_text.c {
   width:228px;
 }
 #u17.c {
   left:328px;
-  top:794px;
+  top:803px;
 }
 #u17_img.c {
 }
 #u17.c {
   left:328px;
-  top:794px;
+  top:803px;
 }
 #u18.c {
   left:-4px;
