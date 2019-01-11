@@ -1,7 +1,7 @@
 ﻿.ax_default {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
-  font-weight:400;
-  font-style:light;
+  font-weight:300;
+  font-style:bold;
   font-size:13px;
   color:#333333;
   text-align:center;
@@ -17,8 +17,8 @@
 }
 .shape {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
-  font-weight:400;
-  font-style:light;
+  font-weight:300;
+  font-style:bold;
   font-size:13px;
   color:#333333;
   text-align:center;
@@ -37,41 +37,41 @@
 .heading_1 {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
   font-weight:bold;
-  font-style:normal;
+  font-style:semi-bold;
   font-size:32px;
   text-align:left;
 }
 .heading_2 {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
   font-weight:bold;
-  font-style:normal;
+  font-style:semi-bold;
   font-size:24px;
   text-align:left;
 }
 .heading_3 {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
   font-weight:bold;
-  font-style:normal;
+  font-style:semi-bold;
   font-size:18px;
   text-align:left;
 }
 .heading_4 {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
   font-weight:bold;
-  font-style:normal;
+  font-style:semi-bold;
   font-size:14px;
   text-align:left;
 }
 .heading_5 {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
   font-weight:bold;
-  font-style:normal;
+  font-style:semi-bold;
   text-align:left;
 }
 .heading_6 {
   font-family:'Work Sans', 'Frutiger CE 45', 'Roboto', 'Arial';
   font-weight:bold;
-  font-style:normal;
+  font-style:semi-bold;
   font-size:10px;
   text-align:left;
 }
