@@ -885,16 +885,16 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:87px;
-  height:128px;
+  width:325px;
+  height:230px;
 }
 #u32 {
   border-width:0px;
   position:absolute;
-  left:-97px;
-  top:75px;
-  width:87px;
-  height:128px;
+  left:-25px;
+  top:14px;
+  width:325px;
+  height:230px;
 }
 #u32_text {
   border-width:0px;
@@ -7350,10 +7350,14 @@ body.b {  background-color:rgba(255, 255, 255, 1);
   height:210px;
 }
 #u32.b {
+  left:-44px;
+  top:22px;
 }
 #u32_img.b {
 }
 #u32.b {
+  left:-44px;
+  top:22px;
 }
 #u33.b {
   left:-44px;
@@ -9923,10 +9927,14 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   height:210px;
 }
 #u32.c {
+  left:-44px;
+  top:22px;
 }
 #u32_img.c {
 }
 #u32.c {
+  left:-44px;
+  top:22px;
 }
 #u33.c {
   left:-44px;

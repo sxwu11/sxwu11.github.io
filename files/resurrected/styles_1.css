@@ -1187,7 +1187,7 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:612px;
-  height:80px;
+  height:100px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -2340,10 +2340,14 @@ body.c {  background-color:rgba(255, 255, 255, 1);
   height:210px;
 }
 #u3389.c {
+  left:-44px;
+  top:22px;
 }
 #u3389_img.c {
 }
 #u3389.c {
+  left:-44px;
+  top:22px;
 }
 #u3390.c {
   left:-44px;
