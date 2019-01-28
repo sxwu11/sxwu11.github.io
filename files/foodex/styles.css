@@ -18855,32 +18855,7 @@
   width:0px;
   height:0px;
 }
-#u4423_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:300px;
-  height:600px;
-}
 #u4423 {
-  border-width:0px;
-  position:absolute;
-  left:88px;
-  top:3120px;
-  width:300px;
-  height:600px;
-}
-#u4423_text {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  visibility:hidden;
-  word-wrap:break-word;
-}
-#u4424 {
   border-width:0px;
   position:absolute;
   left:98px;
@@ -18889,7 +18864,7 @@
   height:600px;
   overflow:hidden;
 }
-#u4424_state0 {
+#u4423_state0 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -18902,13 +18877,38 @@
   overflow-y:hidden;
   background-image:none;
 }
-#u4424_state0_content {
+#u4423_state0_content {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:1px;
   height:1px;
+}
+#u4424_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:600px;
+}
+#u4424 {
+  border-width:0px;
+  position:absolute;
+  left:-10px;
+  top:0px;
+  width:300px;
+  height:600px;
+}
+#u4424_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
+  word-wrap:break-word;
 }
 #u4425_img {
   border-width:0px;
@@ -18946,8 +18946,8 @@
 #u4426 {
   border-width:0px;
   position:absolute;
-  left:-10px;
-  top:0px;
+  left:88px;
+  top:3120px;
   width:300px;
   height:600px;
 }
@@ -19310,8 +19310,8 @@
 #u4439 {
   border-width:0px;
   position:absolute;
-  left:-10px;
-  top:0px;
+  left:-9px;
+  top:1px;
   width:300px;
   height:600px;
 }
@@ -29086,12 +29086,6 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   background-image:none;
 }
 #u4423.a {
-}
-#u4423_img.a {
-}
-#u4423.a {
-}
-#u4424.a {
   border-width:0px;
   position:absolute;
   left:98px;
@@ -29099,21 +29093,27 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   width:280px;
   height:600px;
 }
+#u4424.a {
+}
+#u4424_img.a {
+}
+#u4424.a {
+}
 #u4425.a {
 }
 #u4425_img.a {
 }
 #u4425.a {
 }
+#u4423_state0.a {
+  background-color:rgba(255, 255, 255, 0);
+  background-image:none;
+}
 #u4426.a {
 }
 #u4426_img.a {
 }
 #u4426.a {
-}
-#u4424_state0.a {
-  background-color:rgba(255, 255, 255, 0);
-  background-image:none;
 }
 #u4428.a {
 }
