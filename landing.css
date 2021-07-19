@@ -1,0 +1,275 @@
+/* Custom properties/variables  */
+@import "https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;700";
+
+:root {
+  --main-orange: #FF8200;
+  --main-green: #00bcb4;
+  --main-gray: #898d8d;
+  --hero-black: #1F1F1F;
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;  /*
+  overflow-y: hidden; Hide horizontal scrollbar */
+}
+
+
+body {
+  background-color: black;
+  font-family: 'DinProLight', 'Work Sans', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
+p {
+  font-family: 'DinProLight', 'Work Sans', sans-serif;
+  font-size: 2.1rem;
+  font-weight: 200;
+}
+
+
+li {
+  font-family: 'DinProLight', 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+/** End of global classes styling **/
+
+
+/** Hero Hero Hero Hero Hero Hero Hero Hero Hero Hero Hero Hero  **/
+/** Hero Home Page **/
+.hero-container {
+  max-width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(47, 160, 212, 0.644), rgba(0, 0, 0, 0.836)),
+                    url("/images/shengxi_wu/u2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow:hidden;
+}
+
+
+.hero-text-wrapper {
+  max-width: 90%;
+  color:white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hero-text {
+  font-family: 'DinProBold', 'Work Sans', sans-serif;
+  font-size: 5rem;
+  text-shadow: 2px 2px 18px rgba(0, 0, 0, 0.548);
+  opacity: 0;
+  animation: herofade-forwards 1s forwards;
+}
+
+.sub-text {
+  font-family: 'DinProBold', 'Work Sans', sans-serif;
+  font-size: 4rem;
+  opacity: 0;
+  animation: herofade-forwards 1s forwards;
+  animation-delay: 0.3s;
+}
+
+.narrative-text {
+  max-width: 80%;
+  opacity: 0;
+  animation: herofade-forwards 1s forwards;
+  animation-delay: 0.6s;
+}
+
+.probtn {
+  cursor: pointer;
+  min-width: 70%;
+  border-radius: 100px;
+  /**border:1px solid #ccc;**/
+  background-color: #00bcb4;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 20px;
+  transition: 0.2s;
+  opacity: 0;
+  animation: herofade-forwards 1s forwards;
+  animation-delay: 0.6s;
+}
+
+.probtn:hover {
+  font-weight: bold;
+  background: #00cfc5;
+  box-shadow: 0 0 50px #00cfc5;
+}
+
+
+.collegebtn {
+  cursor: pointer;
+  min-width: 70%;
+  border-radius: 100px;
+  border:1px solid rgba(204, 204, 204, 0.774);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  opacity: 0;
+  animation: herofade-forwards 1s forwards;
+  animation-delay: 0.8s;
+}
+
+.collegebtn:hover {
+  background: #ffffff7a;
+  box-shadow: 0 0 50px #ffffff7a;
+}
+
+@keyframes herofade-forwards {
+  100% {
+    opacity: 100%;
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+}
+
+.fade-out {
+  animation-name: fadeOut;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(startYposition);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(endYposition);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+      opacity: 1;
+      transform: translateY(startYposition);
+  } 
+  100% {
+      opacity: 0;
+      transform: translateY(endYposition);
+  }
+}
+
+/** End of Hero End of Hero End of Hero End of Hero End of Hero End of Hero End of Hero End of Hero  **/
+
+/** Footer **/
+.footer-basic {
+  padding:40px 0;
+  color:white;
+  transition: 0.2s;
+  opacity: 0;
+  animation: herofade-forwards 1s forwards;
+  animation-delay: 1s;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  transition: 0.1s;
+}
+
+a:hover {
+  background: #ffffff7a;
+  box-shadow: 0 0 10px #ffffff7a;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+/** End of Footer **/
+
+
+/** For Development: Bootstrap Grid Visualizer 
+
+
+.container-visual {
+  border: 3px dotted green;
+}
+
+.row-visual {
+  border: 2px dotted red;
+}
+
+.col-visual {
+  border: 2px dotted blue;
+}
+
+.bubble-container {
+  border: 2px dotted yellow;
+}
+**/
