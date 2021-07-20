@@ -115,7 +115,7 @@ li {
 
 .probtn {
   cursor: pointer;
-  min-width: 70%;
+  min-width: 80%;
   border-radius: 100px;
   /**border:1px solid #ccc;**/
   background-color: #00bcb4;
@@ -137,7 +137,7 @@ li {
 
 .collegebtn {
   cursor: pointer;
-  min-width: 70%;
+  min-width: 80%;
   border-radius: 100px;
   border:1px solid rgba(204, 204, 204, 0.774);
   padding-top: 8px;
